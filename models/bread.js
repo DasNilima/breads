@@ -18,5 +18,16 @@ module.exports = [
     name: 'Pumpernickel',
     hasGluten: true,
     image: 'https://images.unsplash.com/photo-1586444248902-2f64eddc13df?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80',
+},
+{
+    name: 'Bun',
+    hasGluten: true,
+    image: 'https://images.unsplash.com/photo-1588861472194-6883d8b5e552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+    
+    },
+{
+    name: 'Doughnuts',
+    hasGluten: true,
+    image: 'https://images.unsplash.com/photo-1558745010-d2a3c21762ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
 }
 ]

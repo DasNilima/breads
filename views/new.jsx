@@ -23,7 +23,7 @@ return (
         id="image" />
         </div>
         <br />
-        <div class="form-check mb-3">
+        <div className="form-check mb-3">
         <label htmlFor="hasGluten"> Has Gluten?</label>
         <input
         type="checkbox"
@@ -33,16 +33,15 @@ return (
         />
         </div>
         <br />
-        <div class="form-check mb-3">
+        <div className="form-check mb-3">
         <input type="submit" />     
         </div>
         </form>
         <div className="backButton">
-<a href="/breads"><button class="btn btn-primary">Go back to the index</button></a>
-</div>
-
+        <a href="/breads"><button className="btn btn-primary">Go back to the index</button></a>
+        </div>
     </Default>
-)
+    )
 }
 
 module.exports = New
