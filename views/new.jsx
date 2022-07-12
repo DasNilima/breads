@@ -5,32 +5,40 @@ function New () {
 return (
     <Default>
     <h2>Add a new bread</h2>
-    <form action="/breads" method="POST">
+        <form action="/breads" method="POST">
+        <div className="form-group mb-2 mt-3">
         <label htmlFor="name">Name</label>
         <input
         type="text"
         name="name"
         id="name"
         required
-        /> <br />
+        /></div>
+            <br />
+        <div className="form-group mb-2 mt-3">
         <label htmlFor="image">Image</label>
         <input
         type="text"
         name="image"
         id="image" />
-        <br />   
-        <label htmlFor="hasGluten">Has Gluten?</label>
+        </div>
+        <br />
+        <div class="form-check mb-3">
+        <label htmlFor="hasGluten"> Has Gluten?</label>
         <input
         type="checkbox"
         name="hasGluten"
         id="hasGluten"
         defaultChecked
         />
+        </div>
         <br />
-        <input type="submit"/>
+        <div class="form-check mb-3">
+        <input type="submit" />     
+        </div>
         </form>
         <div className="backButton">
-<a href="/breads"><button>Go back to the index</button></a>
+<a href="/breads"><button class="btn btn-primary">Go back to the index</button></a>
 </div>
 
     </Default>
