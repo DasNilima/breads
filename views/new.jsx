@@ -14,15 +14,15 @@ return (
         id="name"
         required
         /></div>
-            <br />
+        <br />
         <div className="form-group mb-2 mt-3">
         <label htmlFor="image">Image</label>
         <input
         type="text"
         name="image"
         id="image" />
-        </div>
         <br />
+        </div>
         <div className="form-check mb-3">
         <label htmlFor="hasGluten"> Has Gluten?</label>
         <input
