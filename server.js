@@ -25,8 +25,12 @@ res.send('Welcome to an Awesome App about Breads!')
 })
 
 // Breads
-const breadsController = require('./controllers/breads_controller')
+const breadsController = require('./controllers/breads_controller.js')
 app.use('/breads', breadsController)
+
+// bakers 
+const bakersController = require('./controllers/bakers_controller.js')
+app.use('/bakers', bakersController)
 
 // 404 Page
 app.get('*', (req, res) => {
